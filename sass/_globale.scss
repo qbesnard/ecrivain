@@ -1,0 +1,16 @@
+body {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+h1{
+  font-size: 70px;
+}
+
+section{
+  &#banniere{
+    width: 100%;
+    min-height: 900px;
+    background-image: url("../img/banniere.png");
+  }
+}

@@ -1,0 +1,22 @@
+/* line 1, ../sass/_globale.scss */
+body {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* line 6, ../sass/_globale.scss */
+h1 {
+  font-size: 70px;
+}
+
+/* line 11, ../sass/_globale.scss */
+section#banniere {
+  width: 100%;
+  min-height: 900px;
+  background-image: url("../img/banniere.png");
+}
+
+/* line 1, ../sass/_header.scss */
+header {
+  height: 319px;
+}
