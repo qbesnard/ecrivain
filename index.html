@@ -5,58 +5,97 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/slick/css/slick.css">
+    <link rel="stylesheet" href="asset/slick/css/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Pascal Gregoire</title>
 </head>
 <body>
-<header>
-    <div class="container">
-        <h1 class="text-center">Pascal Gregoire</h1>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link" href="#book">Le roman</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#press">Avis</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#bio">L'auteur</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#actu">Actualités</a>
-            </li>
-        </ul>
-    </div>
+<header class="container">
+    <h1 class="text-center">Pascal <span><br>Gregoire</span></h1>
+    <ul class="nav justify-content-around align-content-end">
+        <li class="nav-item">
+            <a class="nav-link" href="#book">Le roman</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#press">Avis</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#bio">L'auteur</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#actu">Actualités</a>
+        </li>
+    </ul>
 </header>
 <section id="banniere">
-    <div class="container">
-        <div class="h1">9 Février<span>Séance de dédicace</span></div>
+    <div class="container-moyen">
+        <h1 class="h1 banniere_h1">9 Février <span><br>Séance de dédicace</span></h1>
         <div class="info">
             <p class="bolt">Venez rencontrez Pascal Grégoire chez Cultura à partir de 14h</p>
-            <img src="" alt="Logo_cultura">
-            <p>6 Rue des Prerrières, 10000 Troyes</p>
+            <div class="adresse d-flex align-items-center">
+                <img src="img/cultura.png" alt="Logo_cultura">
+                <p>6 Rue des Prerrières, 10000 Troyes</p>
+            </div>
         </div>
     </div>
 </section>
 <section id="book">
-    <div class="container">
+    <div class="container-moyen">
         <div class="row">
-            <div class="col-md-4">
-                <img src="" alt="">
+            <div class="col-md-4 book_img">
+                <img src="img/Maquette.png" alt="livre goldman sucks" class="img-fluid">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 content">
                 <h2>Goldman sucks</h2>
                 <a href="" class="btn btn-outline-danger">eBook</a>
                 <a href="" class="btn btn-outline-danger">Acheter</a>
                 <a href="" class="btn btn-outline-danger">Lire un extrait</a>
-                <p></p>
+                <p>Une famille extraordinaire à l’assaut de Goldman Sachs.<br>
+                    Du jour au lendemain, Corentin Pontchardin perd tout. Simultanément victime de la crise des
+                    subprimes et de sa propre crise de la quarantaine, celui qui conjuguait avec succès vie
+                    professionnelle – au ministère des Finances – et vie privée voit son monde s’écrouler.<br>
+                    Bien décidé à partir en guerre contre la banque qui a causé sa perte, la toute-puissante Goldman
+                    Sachs, Corentin embarque femme, enfant et beaux-parents aux États-Unis dans une aventure épique
+                    jalonnée de rencontres inattendues.
+                    Véritable fable sociale, Goldman sucks raconte avec tendresse – et une bonne dose d’humour – le
+                    quotidien de cette équipée lancée à l’assaut de la finance mondiale.<br>
+                    Un roman vif et plein d’espoir, porté par une famille pas tout à fait ordinaire.</p>
             </div>
         </div>
     </div>
 </section>
 <section id="press">
-    ajouter un slick slider
+    <div class="container-moyen">
+        <div class="slider_press">
+            <div class="testimonial">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3>« INCROYABLE »</h3>
+                        <p>« Construit à la manière d’un cold case, alternant passé et présent, ce roman est
+                            redoutablement efficace et bourré de rebondissements jusque dans les ultimes pages.
+                            L’intrigue
+                            policière se double de questionnements plus intimes, voire fantasmés »</p>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3>« INCROYABLE »</h3>
+                        <p>« Construit à la manière d’un cold case, alternant passé et présent, ce roman est
+                            redoutablement efficace et bourré de rebondissements jusque dans les ultimes pages.
+                            L’intrigue
+                            policière se double de questionnements plus intimes, voire fantasmés »</p>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <section id="bio">
     <div class="container">
@@ -75,7 +114,9 @@
 <section id="actu">
     <div class="container">
         <h2 class="actu_h2">Actualités</h2>
-        <div class="slider_actu"></div>
+        <div class="slider_actu">
+
+        </div>
     </div>
 </section>
 <footer>
@@ -101,7 +142,11 @@
         </div>
     </div>
 </footer>
-<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
 <script type="text/javascript" src="asset/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="asset/slick/js/slick.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
 </body>
 </html>

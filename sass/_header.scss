@@ -1,3 +1,12 @@
-header{
-  height: 319px;
+header {
+  height: 240px;
+  .nav {
+    font-size: 25px;
+    .nav-item{
+      .nav-link{
+        color: #000;
+      }
+    }
+  }
+
 }

@@ -1,16 +1,103 @@
 body {
   font-weight: 400;
   font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
-h1{
-  font-size: 70px;
+.container-moyen {
+  max-width: 1400px;
+
+  padding-right: 15px;
+
+  padding-left: 15px;
+
+  margin-right: auto;
+
+  margin-left: auto;
 }
 
-section{
-  &#banniere{
+
+h1 {
+  font-size: 65px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &.banniere_h1 {
+    font-size: 120px;
+    color: #fff;
+    line-height: 1;
+    padding-bottom: 10px;
+
+    span {
+      font-size: 80px;
+    }
+  }
+}
+
+h2 {
+  font-size: 65px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h3{
+  color: $primary;
+  font-size: 40px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+section {
+  &#banniere {
+    padding-top: 150px;
     width: 100%;
     min-height: 900px;
     background-image: url("../img/banniere.png");
+
+    .info {
+      background-color: rgba(255, 255, 255, .8);
+      max-width: 75%;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 30px;
+      padding: 20px 40px;
+      border-radius: 40px;
+
+      .bolt {
+        font-size: 34px;
+        width: 100%;
+      }
+
+      .adresse {
+        p {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+
+  &#book {
+    padding: 141px 0;
+
+    .content {
+      padding: 20px 0 20px 80px;
+      p{
+        margin-top: 50px;
+      }
+    }
+  }
+  &#press{
+    padding: 40px 0;
+    background-color: $grey;
   }
 }
+

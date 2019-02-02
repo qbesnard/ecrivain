@@ -1,22 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900|Work+Sans:400,700");
 /* line 1, ../sass/_globale.scss */
 body {
   font-weight: 400;
   font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* line 6, ../sass/_globale.scss */
+/* line 7, ../sass/_globale.scss */
+.container-moyen {
+  max-width: 1400px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 20, ../sass/_globale.scss */
 h1 {
-  font-size: 70px;
+  font-size: 65px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 26, ../sass/_globale.scss */
+h1.banniere_h1 {
+  font-size: 120px;
+  color: #fff;
+  line-height: 1;
+  padding-bottom: 10px;
+}
+/* line 32, ../sass/_globale.scss */
+h1.banniere_h1 span {
+  font-size: 80px;
 }
 
-/* line 11, ../sass/_globale.scss */
+/* line 38, ../sass/_globale.scss */
+h2 {
+  font-size: 65px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 45, ../sass/_globale.scss */
+h3 {
+  color: #d4323d;
+  font-size: 40px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 53, ../sass/_globale.scss */
+p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+/* line 60, ../sass/_globale.scss */
 section#banniere {
+  padding-top: 150px;
   width: 100%;
   min-height: 900px;
   background-image: url("../img/banniere.png");
 }
+/* line 66, ../sass/_globale.scss */
+section#banniere .info {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  padding: 20px 40px;
+  border-radius: 40px;
+}
+/* line 75, ../sass/_globale.scss */
+section#banniere .info .bolt {
+  font-size: 34px;
+  width: 100%;
+}
+/* line 81, ../sass/_globale.scss */
+section#banniere .info .adresse p {
+  margin-left: 15px;
+}
+/* line 88, ../sass/_globale.scss */
+section#book {
+  padding: 141px 0;
+}
+/* line 91, ../sass/_globale.scss */
+section#book .content {
+  padding: 20px 0 20px 80px;
+}
+/* line 93, ../sass/_globale.scss */
+section#book .content p {
+  margin-top: 50px;
+}
+/* line 98, ../sass/_globale.scss */
+section#press {
+  padding: 40px 0;
+  background-color: #E7E7E7;
+}
+
+/* line 2, ../sass/_button.scss */
+.btn.btn-outline-danger {
+  background-color: #E7E7E7;
+  color: #d4323d;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+  border-radius: 40px;
+  margin-right: 30px;
+  min-width: 100px;
+  padding: 10px 25px;
+}
+/* line 14, ../sass/_button.scss */
+.btn:hover.btn-outline-danger {
+  background: #d4323d;
+  color: #E7E7E7;
+}
+
+/* line 22, ../sass/_button.scss */
+.slick-arrow.slick-prev {
+  width: 44px;
+  height: 87px;
+}
+/* line 25, ../sass/_button.scss */
+.slick-arrow.slick-prev:before {
+  color: #d4323d;
+  padding: 37px 15px;
+  font-family: "Font Awesome 5 Free", fantasy;
+  content: '\f060';
+}
+/* line 32, ../sass/_button.scss */
+.slick-arrow.slick-next {
+  width: 44px;
+  height: 87px;
+}
+/* line 35, ../sass/_button.scss */
+.slick-arrow.slick-next:before {
+  color: #d4323d;
+  padding: 37px 15px;
+  font-family: "Font Awesome 5 Free", fantasy;
+  content: '\f061';
+}
 
 /* line 1, ../sass/_header.scss */
 header {
-  height: 319px;
+  height: 240px;
+}
+/* line 3, ../sass/_header.scss */
+header .nav {
+  font-size: 25px;
+}
+/* line 6, ../sass/_header.scss */
+header .nav .nav-item .nav-link {
+  color: #000;
 }
