@@ -1,12 +1,41 @@
 header {
   height: 240px;
+  position: relative;
+
   .nav {
     font-size: 25px;
-    .nav-item{
-      .nav-link{
+
+    .nav-item {
+      .nav-link {
+        position: relative;
+        text-transform: uppercase;
+        padding: 0;
         color: #000;
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 50%;
+          transform: scaleX(0);
+          height: 4px;
+          bottom: 0;
+          left: 0;
+          background-color: $primary;
+          transform-origin: bottom left;
+          transition: transform 0.25s ease-out;
+        }
+
+        &:hover::after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
       }
     }
   }
 
+  .reseaux {
+    position: absolute;
+    right: -208px;
+    top: 155px;
+  }
 }

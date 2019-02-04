@@ -2,6 +2,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 .container-moyen {
@@ -40,9 +41,10 @@ h2 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
-h3{
+h3 {
   color: $primary;
   font-size: 40px;
   font-family: 'Work Sans', sans-serif;
@@ -90,14 +92,107 @@ section {
 
     .content {
       padding: 20px 0 20px 80px;
-      p{
+
+      p {
         margin-top: 50px;
       }
     }
   }
-  &#press{
+
+  &#press {
     padding: 40px 0;
     background-color: $grey;
+
+    .testimonial {
+      padding: 50px 0;
+
+      img {
+        display: initial;
+        margin-bottom: 5px;
+      }
+
+      a {
+        color: #000;
+        text-decoration: none;
+        span {
+          font-size: 25px;
+          position: relative;
+          padding: 0;
+          text-decoration: none;
+
+          &::after {
+            content: '';
+            position: absolute;
+            width: 50%;
+            transform: scaleX(0);
+            height: 4px;
+            bottom: 0;
+            left: 0;
+            background-color: $primary;
+            transform-origin: bottom left;
+            transition: transform 0.25s ease-out;
+          }
+
+          &:hover {
+            text-decoration: none;
+            &::after {
+              transform: scaleX(1);
+              transform-origin: bottom left;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &#bio {
+    padding: 141px 0;
+
+    h2 {
+      margin-bottom: 35px;
+    }
+
+    .content {
+      padding: 20px 0 20px 80px;
+
+      p {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  &#actu {
+    padding-bottom: 60px;
+    .card {
+      border: none;
+      padding: 10px;
+      text-decoration: none;
+      color: #000;
+      transition: all 0.2s;
+
+      .card-img-top {
+        border-radius: 0;
+      }
+
+      .card-body {
+        border: 2px solid $grey;
+        border-top: none;
+        padding: 40px 25px;
+
+        h3 {
+          font-size: 30px;
+          color: #000000;
+        }
+
+        p {
+          font-size: 23px;
+        }
+      }
+
+      &:hover {
+        transform: translateY(-10px);
+      }
+    }
   }
 }
 
