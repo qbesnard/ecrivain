@@ -1,5 +1,5 @@
-.btn{
-  &.btn-outline-danger{
+.btn {
+  &.btn-outline-danger {
     background-color: $grey;
     color: $primary;
     font-weight: 400;
@@ -10,33 +10,98 @@
     min-width: 100px;
     padding: 10px 25px;
   }
-  &:hover{
-    &.btn-outline-danger{
+
+  &:hover {
+    &.btn-outline-danger {
       background: $primary;
       color: $grey;
     }
   }
 }
 
-.slick-arrow{
-  &.slick-prev{
+.slick-arrow {
+  position: absolute;
+
+  &.slick-prev {
     width: 44px;
     height: 87px;
-    &:before{
+    left: -100px;
+
+    &:before {
       color: $primary;
       padding: 37px 15px;
       font-family: "Font Awesome 5 Free", fantasy;
+      font-weight: 900;
       content: '\f060';
+      font-size: 30px;
     }
   }
-  &.slick-next{
+
+  &.slick-next {
     width: 44px;
     height: 87px;
-    &:before{
+    right: -100px;
+
+    &:before {
       color: $primary;
       padding: 37px 15px;
       font-family: "Font Awesome 5 Free", fantasy;
+      font-weight: 900;
       content: '\f061';
+      font-size: 30px;
+    }
+  }
+}
+
+.reseaux {
+  padding-bottom: 20px;
+
+  a {
+    color: #fff;
+    background: $dark-grey;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 37px;
+
+    &.fb {
+      padding: 10px 20px;
+    }
+
+    &.twitter {
+      padding: 10px 15px;
+    }
+
+    &:hover {
+      background: $primary;
+    }
+  }
+}
+
+.btn-center {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  a {
+    color: $primary;
+    background: #fff;
+    font-size: 25px;
+    border-radius: 0;
+    padding: 5px 10px;
+    i {
+      transition: all 0.2s;
+    }
+
+    &:hover {
+      color: $primary;
+
+      i {
+        transform: translateY(4px);
+      }
     }
   }
 }

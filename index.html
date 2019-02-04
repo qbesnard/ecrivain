@@ -5,10 +5,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="asset/slick/css/slick.css">
     <link rel="stylesheet" href="asset/slick/css/slick-theme.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+          integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Pascal Gregoire</title>
 </head>
@@ -17,18 +18,27 @@
     <h1 class="text-center">Pascal <span><br>Gregoire</span></h1>
     <ul class="nav justify-content-around align-content-end">
         <li class="nav-item">
-            <a class="nav-link" href="#book">Le roman</a>
+            <a class="nav-link scrollto" href="#book">Le roman</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#press">Avis</a>
+            <a class="nav-link scrollto" href="#press">Avis</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#bio">L'auteur</a>
+            <a class="nav-link scrollto" href="#bio">L'auteur</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#actu">Actualités</a>
+            <a class="nav-link scrollto" href="#actu">Actualités</a>
         </li>
     </ul>
+    <div class="reseaux d-flex justify-content-center">
+        <a href="https://www.facebook.com/pascal.gregoire.12" class="fb">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/pascalgregoire" class="twitter">
+            <i class="fab fa-twitter">
+            </i>
+        </a>
+    </div>
 </header>
 <section id="banniere">
     <div class="container-moyen">
@@ -40,19 +50,27 @@
                 <p>6 Rue des Prerrières, 10000 Troyes</p>
             </div>
         </div>
+        <div class="btn-center header-btn">
+            <a class="scrollto btn btn-bas" href="#book">
+                <i class="fas fa-angle-down"></i>
+            </a>
+        </div>
     </div>
 </section>
 <section id="book">
     <div class="container-moyen">
         <div class="row">
-            <div class="col-md-4 book_img">
+            <div class="col-12 col-lg-4 book_img text-center">
                 <img src="img/Maquette.png" alt="livre goldman sucks" class="img-fluid">
             </div>
-            <div class="col-md-8 content">
+            <div class="col-12 col-lg-8 content">
                 <h2>Goldman sucks</h2>
-                <a href="" class="btn btn-outline-danger">eBook</a>
-                <a href="" class="btn btn-outline-danger">Acheter</a>
-                <a href="" class="btn btn-outline-danger">Lire un extrait</a>
+                <a href="https://www.cultura.com/goldman-sucks-tea-9782749158044.html?fbclid=IwAR1U7NLOx9lz-EI1ZvtnLzQhUuSc8ahTf8KrfeOXyFzfK5GKIwf0x8pO2Kg"
+                   target="_blank" class="btn btn-outline-danger">eBook</a>
+                <a href="https://www.cultura.com/goldman-sucks-9782749158037.html?fbclid=IwAR0Y3iEKQnuL5LLg0I3cP1o3pCC9316jfonkgovmnAzhZQe463y0MeReqHA"
+                   target="_blank" class="btn btn-outline-danger">Acheter</a>
+                <a href="https://ebook.chapitre.com/ebooks/goldman-sucks-9782749158044_9782749158044_3.html?fbclid=IwAR1X0cXQouoE-60uH0T0CHZd8HVqMbBh-kqpoPYNF0c3y4l-_Ya6FbiScWc"
+                   target="_blank" class="btn btn-outline-danger">Lire un extrait</a>
                 <p>Une famille extraordinaire à l’assaut de Goldman Sachs.<br>
                     Du jour au lendemain, Corentin Pontchardin perd tout. Simultanément victime de la crise des
                     subprimes et de sa propre crise de la quarantaine, celui qui conjuguait avec succès vie
@@ -72,78 +90,125 @@
         <div class="slider_press">
             <div class="testimonial">
                 <div class="row">
-                    <div class="col-md-10">
+                    <div class="col-md-8 col-lg-10">
                         <h3>« INCROYABLE »</h3>
                         <p>« Construit à la manière d’un cold case, alternant passé et présent, ce roman est
                             redoutablement efficace et bourré de rebondissements jusque dans les ultimes pages.
                             L’intrigue
                             policière se double de questionnements plus intimes, voire fantasmés »</p>
                     </div>
-                    <div class="col-md-2"></div>
+                    <div class="col-md-4 col-lg-2 text-center">
+                        <img src="img/subradio.png" class="img-fluid" alt="">
+                        <a href="#" class="d-flex justify-content-center"><span>SubRadio.fr</span></a>
+                    </div>
                 </div>
             </div>
             <div class="testimonial">
                 <div class="row">
-                    <div class="col-md-10">
+                    <div class="col-md-8 col-lg-10">
                         <h3>« INCROYABLE »</h3>
                         <p>« Construit à la manière d’un cold case, alternant passé et présent, ce roman est
                             redoutablement efficace et bourré de rebondissements jusque dans les ultimes pages.
                             L’intrigue
                             policière se double de questionnements plus intimes, voire fantasmés »</p>
                     </div>
-                    <div class="col-md-2"></div>
+                    <div class="col-md-4 col-lg-2 "></div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <section id="bio">
-    <div class="container">
+    <div class="container-moyen">
         <div class="row">
-            <div class="col-md-4"><img src="" alt=""></div>
-            <div class="col-md-8">
-                <h2>Pascal grégroire</h2>
+            <div class="col-12 col-lg-4 bio_img text-center">
+                <img src="img/pascal-gregoire.png" class="img-fluid" alt="Portrait Pascal Grégoire">
+            </div>
+            <div class="col-12 col-lg-8 content">
+                <h2>Pascal grégoire</h2>
                 <p>Pascal Grégoire est publicitaire.</p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>Il a été directeur de la création dans de nombreuses agences avant de co-fonder, avec Eric Tong
+                    Cuong, la sienne, « La Chose », en 2006.</p>
+                <p>Il a commencé son parcours dans l’économie. Au CELSA, il fera un stage et chez BCRC, il commence en
+                    tant que commercial. Puis il rejoint CLM BBDO. Il rejoint Leo Burnett avant d’aller chez Bélier où
+                    il devient directeur de création à 27 ans. Il apprend à faire travailler des équipes ensemble, et
+                    monte Leagas Delaney Paris où il travaille jusqu’en 2003. Ensuite il accepte la présidence de CLM
+                    BBDO. </p>
+                <p>Dans son livre « Goldman Sucks », (éd. Cherche Midi, 2018), il signe un premier roman sur les
+                    coulisses de la finance internationale, autour d’une famille, au cœur de la crise de 2008.</p>
             </div>
         </div>
     </div>
 </section>
 <section id="actu">
-    <div class="container">
+    <div class="container-moyen">
         <h2 class="actu_h2">Actualités</h2>
         <div class="slider_actu">
-
+            <a href="#" class="card">
+                <img class="card-img-top" src="img/actu1.png" alt="Grand Matin Sud Radio">
+                <div class="card-body">
+                    <h3 class="card-title">Grand Matin Sud Radio</h3>
+                    <p class="card-text">« Goldman Sachs est une toile d’araignée mondiale, ce sont eux qui notent les
+                        pays »</p>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img class="card-img-top" src="img/actu1.png" alt="Grand Matin Sud Radio">
+                <div class="card-body">
+                    <h3 class="card-title">Grand Matin Sud Radio</h3>
+                    <p class="card-text">« Goldman Sachs est une toile d’araignée mondiale, ce sont eux qui notent les
+                        pays »</p>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img class="card-img-top" src="img/actu1.png" alt="Grand Matin Sud Radio">
+                <div class="card-body">
+                    <h3 class="card-title">Grand Matin Sud Radio</h3>
+                    <p class="card-text">« Goldman Sachs est une toile d’araignée mondiale, ce sont eux qui notent les
+                        pays »</p>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img class="card-img-top" src="img/actu1.png" alt="Grand Matin Sud Radio">
+                <div class="card-body">
+                    <h3 class="card-title">Grand Matin Sud Radio</h3>
+                    <p class="card-text">« Goldman Sachs est une toile d’araignée mondiale, ce sont eux qui notent les
+                        pays »</p>
+                </div>
+            </a>
         </div>
     </div>
 </section>
 <footer>
     <div class="container">
-        <div class="reseaux"><a href=""></a><a href=""></a></div>
+        <div class="reseaux d-flex justify-content-center"><a href="https://www.facebook.com/pascal.gregoire.12"
+                                                              class="fb"><i class="fab fa-facebook-f"></i></a><a
+                href="https://twitter.com/pascalgregoire" class="twitter"><i class="fab fa-twitter"></i></a></div>
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link" href="#book">Le roman</a>
+                <a class="nav-link scrollto" href="#book">Le roman</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#press">Avis</a>
+                <a class="nav-link scrollto" href="#press">Avis</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#bio">L'auteur</a>
+                <a class="nav-link scrollto" href="#bio">L'auteur</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#actu">Actualités</a>
+                <a class="nav-link scrollto" href="#actu">Actualités</a>
             </li>
         </ul>
-        <div class="footer_bot">
-            <a href="">Contact</a>
-            <a href="">Mentions Légales</a>
+        <div class="footer_bot d-flex justify-content-center flex-lg-column">
+            <div class="text-center"><a href="mailto:dedicace-troyes@pascalegregoire.fr">dedicace-troyes@pascalegregoire.fr</a>
+            </div>
+            <div class="copyright text-center"><p>© COPYRIGHT 2019 - Tous Droits Réservés</p><a
+                    href="https://troyespointzero.fr" target="_blank">Troyes Point Zéro</a></div>
         </div>
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
+<script src="js/srcollreveal.js"></script>
 <script type="text/javascript" src="asset/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="asset/slick/js/slick.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
