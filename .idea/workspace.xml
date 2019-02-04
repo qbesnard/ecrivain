@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="201" column="88" selection-end-line="216" selection-end-column="7" />
+            <state relative-caret-position="450">
+              <caret line="197" column="72" lean-forward="true" selection-start-line="197" selection-start-column="72" selection-end-line="197" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -62,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -117,10 +117,10 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/sass/_responsive.scss" />
         <option value="$PROJECT_DIR$/sass/_footer.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/_globale.scss" />
         <option value="$PROJECT_DIR$/sass/_button.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -190,12 +190,12 @@
       <workItem from="1549024764091" duration="1337000" />
       <workItem from="1549065759251" duration="10893000" />
       <workItem from="1549194660523" duration="11528000" />
-      <workItem from="1549277618871" duration="3075000" />
+      <workItem from="1549277618871" duration="3952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33771000" />
+    <option name="totallyTimeSpent" value="34648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -290,13 +290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="201" column="88" selection-end-line="216" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_globale.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -340,6 +333,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="197" column="72" lean-forward="true" selection-start-line="197" selection-start-column="72" selection-end-line="197" selection-end-column="72" />
         </state>
       </provider>
     </entry>
