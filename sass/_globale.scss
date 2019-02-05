@@ -109,11 +109,13 @@ section {
       img {
         display: initial;
         margin-bottom: 5px;
+        border-radius: 85px;
       }
 
       a {
         color: #000;
         text-decoration: none;
+
         span {
           font-size: 25px;
           position: relative;
@@ -135,6 +137,7 @@ section {
 
           &:hover {
             text-decoration: none;
+
             &::after {
               transform: scaleX(1);
               transform-origin: bottom left;
@@ -163,12 +166,15 @@ section {
 
   &#actu {
     padding-bottom: 60px;
+
     .card {
       border: none;
       padding: 10px;
       text-decoration: none;
       color: #000;
       transition: all 0.2s;
+      min-height: 650px;
+
 
       .card-img-top {
         border-radius: 0;
@@ -178,6 +184,7 @@ section {
         border: 2px solid $grey;
         border-top: none;
         padding: 40px 25px;
+        min-height: 270px;
 
         h3 {
           font-size: 30px;

@@ -111,20 +111,21 @@ section#press .testimonial {
 section#press .testimonial img {
   display: initial;
   margin-bottom: 5px;
+  border-radius: 85px;
 }
-/* line 114, ../sass/_globale.scss */
+/* line 115, ../sass/_globale.scss */
 section#press .testimonial a {
   color: #000;
   text-decoration: none;
 }
-/* line 117, ../sass/_globale.scss */
+/* line 119, ../sass/_globale.scss */
 section#press .testimonial a span {
   font-size: 25px;
   position: relative;
   padding: 0;
   text-decoration: none;
 }
-/* line 123, ../sass/_globale.scss */
+/* line 125, ../sass/_globale.scss */
 section#press .testimonial a span::after {
   content: '';
   position: absolute;
@@ -137,63 +138,65 @@ section#press .testimonial a span::after {
   transform-origin: bottom left;
   transition: transform 0.25s ease-out;
 }
-/* line 136, ../sass/_globale.scss */
+/* line 138, ../sass/_globale.scss */
 section#press .testimonial a span:hover {
   text-decoration: none;
 }
-/* line 138, ../sass/_globale.scss */
+/* line 141, ../sass/_globale.scss */
 section#press .testimonial a span:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-/* line 148, ../sass/_globale.scss */
+/* line 151, ../sass/_globale.scss */
 section#bio {
   padding: 141px 0;
 }
-/* line 151, ../sass/_globale.scss */
+/* line 154, ../sass/_globale.scss */
 section#bio h2 {
   margin-bottom: 35px;
 }
-/* line 155, ../sass/_globale.scss */
+/* line 158, ../sass/_globale.scss */
 section#bio .content {
   padding: 20px 0 20px 80px;
 }
-/* line 158, ../sass/_globale.scss */
+/* line 161, ../sass/_globale.scss */
 section#bio .content p {
   margin-top: 15px;
 }
-/* line 164, ../sass/_globale.scss */
+/* line 167, ../sass/_globale.scss */
 section#actu {
   padding-bottom: 60px;
 }
-/* line 166, ../sass/_globale.scss */
+/* line 170, ../sass/_globale.scss */
 section#actu .card {
   border: none;
   padding: 10px;
   text-decoration: none;
   color: #000;
   transition: all 0.2s;
+  min-height: 650px;
 }
-/* line 173, ../sass/_globale.scss */
+/* line 179, ../sass/_globale.scss */
 section#actu .card .card-img-top {
   border-radius: 0;
 }
-/* line 177, ../sass/_globale.scss */
+/* line 183, ../sass/_globale.scss */
 section#actu .card .card-body {
   border: 2px solid #E7E7E7;
   border-top: none;
   padding: 40px 25px;
+  min-height: 270px;
 }
-/* line 182, ../sass/_globale.scss */
+/* line 189, ../sass/_globale.scss */
 section#actu .card .card-body h3 {
   font-size: 30px;
   color: #000000;
 }
-/* line 187, ../sass/_globale.scss */
+/* line 194, ../sass/_globale.scss */
 section#actu .card .card-body p {
   font-size: 23px;
 }
-/* line 192, ../sass/_globale.scss */
+/* line 199, ../sass/_globale.scss */
 section#actu .card:hover {
   transform: translateY(-10px);
 }
